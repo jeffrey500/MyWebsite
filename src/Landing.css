@@ -1,0 +1,14 @@
+.landing-section{
+    background: white;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Intro-Text{
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
