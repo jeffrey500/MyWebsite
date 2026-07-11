@@ -6,13 +6,13 @@ import AboutMe from "./AboutMe.jsx";
 function App() {
     return (
         <>
-            <div className="app-layout">
+            <div className="flex flex-col min-h-screen">
                 <Header/>
-                <main className="Landing">
+                <main className="flex-1 flex flex-col">
                     <Landing/>
                 </main>
             </div>
-            <AboutMe/>
+            {/*<AboutMe/>*/}
         </>
     )
 }
