@@ -2,7 +2,7 @@ import ProjectCard from "./ProjectCard.jsx";
 
 function Projects(){
     return(
-        <section id="projects" className="scroll-mt-20 static flex flex-1 flex-col items-center justify-center bg-white">
+        <section id="projects" className="scroll-mt-15 static flex flex-1 flex-col items-center justify-center bg-gray-100">
             <div className="max-w-4xl w-full max-auto">
                 <div className="text-left mt-20 mb-15">
                     <h2 className="text-black text-6xl font-mono font-bold tracking-tight text-left">Featured

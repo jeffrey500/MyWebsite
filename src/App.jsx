@@ -3,6 +3,10 @@ import Header from "./Header.jsx";
 import Landing from "./Landing.jsx";
 import AboutMe from "./AboutMe.jsx";
 import Projects from "./Projects.jsx";
+import Experience from "./Experience.jsx";
+import Contact from "./Contact.jsx";
+import Footer from "./Footer.jsx";
+import Skills from "./Skills.jsx";
 
 function App() {
     return (
@@ -13,7 +17,11 @@ function App() {
                     <Landing/>
                     <AboutMe/>
                     <Projects/>
+                    <Experience/>
+                    {/*<Skills/>*/}
+                    <Contact/>
                 </main>
+                <Footer/>
             </div>
         </>
     )
