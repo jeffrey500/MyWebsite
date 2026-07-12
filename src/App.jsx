@@ -2,6 +2,7 @@ import './App.css'
 import Header from "./Header.jsx";
 import Landing from "./Landing.jsx";
 import AboutMe from "./AboutMe.jsx";
+import Projects from "./Projects.jsx";
 
 function App() {
     return (
@@ -10,9 +11,10 @@ function App() {
                 <Header/>
                 <main className="flex-1 flex flex-col">
                     <Landing/>
+                    <AboutMe/>
+                    <Projects/>
                 </main>
             </div>
-            {/*<AboutMe/>*/}
         </>
     )
 }
