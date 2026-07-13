@@ -15,7 +15,8 @@ function Projects(){
                         title={"Flight Controller V1.0"}
                         description={"Custom flight STM32H743 flight controller on a 4-layer PCB. " +
                             "Future testbed for Control Algorithms. " +
-                            "Has BMI270, BMP388, CAN bus, 8x3 2.54mm headers for PWM/D-Shot."}
+                            "Integrated IMU (BMI270), and Barometer (BMP388). " +
+                            "Routing for USB, SDMMC, CAN, SPI, UART, I2C, PWM/D-Shot."}
                         imageURL={"https://github.com/jeffrey500/Flight-Controller/blob/main/media/Layer1_pour.png?raw=true"}
                         color="border-sky-500"
                         tech1="Altium"
@@ -26,12 +27,12 @@ function Projects(){
                     <ProjectCard
                         github_link="https://github.com/jeffrey500/CNC-Whiteboard"
                         title={"CNC-Whiteboard"}
-                        description={"Physical design considerations for my 1.2m by 2m CNC whiteboard. " +
-                            "Runs on my custom ServoBoard and Ardunio CNC Shield. Runs grbl firmware."}
+                        description={"Fully custom designed wall-mounted linear belt-drive CNC plotter for a 2 meter by 1.2 meter whiteboard. " +
+                        "Controlled using my ServoBoard V2.1 and an Ardunio-CNC Shield with 1/16 micro stepping running GRBL."}
                         imageURL={"https://github.com/jeffrey500/CNC-Whiteboard/blob/main/media/title_image.png?raw=true"}
                         color="border-orange-500"
                         tech1="Fusion360"
-                        tech2="GRBL"
+                        tech2="Mechanical Design"
                         tech3="3D-Printing"
                         date="2025-2026 | 6 months"
                     />
@@ -39,8 +40,8 @@ function Projects(){
                         github_link="https://github.com/jeffrey500/ServoBoard"
                         title={"ServoBoard V2.1"}
                         description={"A custom PCB that drives up to 4 PWM servos. " +
-                            "The board uses the atmega328PB and has variable input and variable servo voltage using the LM2596S buck and AMS1117 LDO. " +
-                            "The board also has 3 6n137 optocouplers."}
+                            "The board uses the atmega328PB and has variable input and variable servo voltage output using the LM2596S buck and AMS1117 LDO. " +
+                            "The board also has 3 6n137 optocouplers for digital interfacing."}
                         imageURL={"https://github.com/jeffrey500/ServoBoard/blob/main/media/board.png?raw=true"}
                         color="border-green-500"
                         tech1="KiCad"
@@ -52,7 +53,7 @@ function Projects(){
                         github_link="https://github.com/jeffrey500/OpenBCI-Cyton-Board-Safety-and-Verification/blob/main/OpenBCI%20Cyton%20Board%20Safety%20and%20Verification.pdf"
                         title={"OpenBCI Cyton EEG Verification"}
                         description={"Safety and Verification testing for the OpenBCI Cyton Board in relation to usage for EEG studies. " +
-                            "Comparison to the SynAmps-RT 64-channel amplifier. Analyzed eye blink amplitude and average PSD."}
+                            "Comparison to the SynAmps-RT 64-channel amplifier. Analyzed average power spectral density and eye-blink amplitudes."}
                         imageURL={"https://github.com/user-attachments/assets/e03e6e90-469e-4d2a-8ca5-38119946f39d"}
                         color="border-yellow-500"
                         tech1="MNE Python"

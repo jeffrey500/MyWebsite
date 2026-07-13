@@ -13,25 +13,32 @@ function Experience(){
                     <ExperienceCard
                         organization={"Krembil Research Institute"}
                         title={"Student Researcher"}
-                        description={"Testing and Implementation of mobile electroencephalography (EEG) Systems for studies and data collection."}
+                        general={"Testing and Implementation of mobile electroencephalography (EEG) Systems for studies and data collection."}
+                        description={["Signal and safety verification testing for the OpenBCI Cyton System",
+                        "Millisecond level synchronization of EEG systems using microcontrollers",
+                        "Collaboration with other labs in UHN and CAMH"]}
                         location={"Toronto, Ontario"}
                         date={"Sept 2025 - Present"}
                     />
                     <ExperienceCard
                         organization={"First Robotics Competition Team Audeamus 8574"}
                         title={"Co-Captain"}
-                        description={"Custom flight STM32H743 flight controller on a 4-layer PCB. " +
-                            "Future testbed for Control Algorithms. " +
-                            "Has BMI270, BMP388, CAN bus, 8x3 2.54mm headers for PWM/D-Shot."}
+                        general={"Led the management of FRC team Audeamus 8574 as well as MGCI Robotics."}
+                        description={["Oversaw 5 technical and non-techincal subteams, coordinated 15 leads and 50+ members\n",
+                            "Organized and led 3 STEM events impacting 300+ attendees, secured sponsorship funding +$30,000, and\n" +
+                            "co-authored a CCEL TDSB grant proposal to support team and community ties",
+                            "Led the team to its first awards since its founding—2 Judges’ Awards and advancement to provincials—and\n" +
+                            "personally won the FIRST Dean’s List District Semi-Finalist Award for leadership excellence"]}
                         location={"Toronto, Ontario"}
                         date={"Sept 2021 - June 2025"}
                     />
                     <ExperienceCard
                         organization={"First Tech Challenge Team Delta Robotics 27115"}
                         title={"Founding Captain"}
-                        description={"Custom flight STM32H743 flight controller on a 4-layer PCB. " +
-                            "Future testbed for Control Algorithms. " +
-                            "Has BMI270, BMP388, CAN bus, 8x3 2.54mm headers for PWM/D-Shot."}
+                        general={"Worked create to create and mentor a community FTC of middle schoolers."}
+                        description={["Mentored Robotics, Engineering Design, and Competition Skills",
+                            "Led Mechanical Design and Manufacturing (Sheet Metal & 3D-printing)",
+                            "Team won Inspire award 2nd place and Control award 2nd place, and competed in the Ontario Provincials"]}
                         location={"Toronto, Ontario"}
                         date={"Sept 2024 - June 2025"}
                     />
