@@ -47,7 +47,7 @@ function Landing(){
                 </video>
 
                 <div
-                    className="relative z-10 flex flex-col h-full items-center justify-center translate-x-10 translate-y-5">
+                    className="relative z-10 flex flex-col h-full items-center justify-center translate-x-8 translate-y-9">
                     <div className="relative bg-gray-300 rounded-xl p-4 text-5xl shadow-xl">
                         <p className="text-[#7e8ea7] font-sans font-bold">Engineering Science @ UofT</p>
                     </div>
