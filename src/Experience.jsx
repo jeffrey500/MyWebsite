@@ -1,0 +1,50 @@
+import ExperienceCard from './ExperienceCard';
+
+function Experience(){
+    return(
+        <section id="experience" className="scroll-mt-15 static flex flex-1 flex-col items-center justify-center">
+            <div className="max-w-4xl w-full max-auto">
+                <div className="text-left mt-20 mb-15">
+                    <h2 className="text-black text-6xl font-mono font-bold tracking-tight text-left">Experience</h2>
+                </div>
+
+                <div className="pb-20">
+                    <ExperienceCard
+                        organization={"Krembil Brain Research Institute"}
+                        title={"Student Researcher"}
+                        general={"Testing and Implementation of mobile electroencephalography (EEG) Systems for studies and data collection."}
+                        description={["Signal and safety verification testing for the OpenBCI Cyton System",
+                        "Millisecond level synchronization of EEG systems using microcontrollers",
+                        "Collaboration with other labs in UHN and CAMH"]}
+                        location={"Toronto, Ontario"}
+                        date={"Sept 2025 - Present"}
+                    />
+                    <ExperienceCard
+                        organization={"First Robotics Competition Team Audeamus 8574"}
+                        title={"Co-Captain"}
+                        general={"Led the management of FRC team Audeamus 8574 as well as MGCI Robotics."}
+                        description={["Oversaw 5 technical and non-techincal subteams, coordinated 15 leads and 50+ members\n",
+                            "Organized and led 3 STEM events impacting 300+ attendees, secured sponsorship funding +$30,000, and\n" +
+                            "co-authored a CCEL TDSB grant proposal to support team and community ties",
+                            "Led the team to its first awards since its founding—2 Judges’ Awards and advancement to provincials—and\n" +
+                            "personally won the FIRST Dean’s List District Semi-Finalist Award for leadership excellence"]}
+                        location={"Toronto, Ontario"}
+                        date={"Sept 2021 - June 2025"}
+                    />
+                    <ExperienceCard
+                        organization={"First Tech Challenge Team Delta Robotics 27115"}
+                        title={"Founding Captain"}
+                        general={"Worked create to create and mentor a community FTC of middle schoolers."}
+                        description={["Mentored Robotics, Engineering Design, and Competition Skills",
+                            "Led Mechanical Design and Manufacturing (Sheet Metal & 3D-printing)",
+                            "Team won Inspire award 2nd place and Control award 2nd place, and competed in the Ontario Provincials"]}
+                        location={"Toronto, Ontario"}
+                        date={"Sept 2024 - June 2025"}
+                    />
+                </div>
+            </div>
+        </section>
+    );
+}
+
+export default Experience;
