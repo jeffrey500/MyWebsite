@@ -15,3 +15,21 @@
 html {
     scroll-behavior: smooth;
 }
+
+/* App.css */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #232a36; /* Tailwind's sky-100 */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #4c5c75; /* Tailwind's sky-700 */
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #889bb4; /* Tailwind's sky-800 for hover state */
+}
