@@ -8,10 +8,10 @@ function AboutMe(){
                     <h2 className="text-black text-6xl font-mono font-bold tracking-tight mb-10">About Me</h2>
                     <p className="text-black text-xl font-mono font-bold tracking-tight max-w-160">Hi, I'm Jeffrey. I'm a incoming
                         second year
-                        Engineering Science Student at the University of Toronto who has a passion for hardware and
+                        Engineering Science Student at the University of Toronto who has a passion for hardware, software and
                         robotics.
                         <br/> <br/>
-                        I'm currently interested Drones, FPGAs, Deep Learning, Reinforcement Learning and Brain Computer
+                        I'm currently interested Drones, FPGAs, Machine Learning and Brain Computer
                         Interfaces.
                         <br/> <br/>
                         I love learning new things and have spent the last 19 years of my life trying to develop an
