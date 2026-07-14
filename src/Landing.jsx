@@ -13,7 +13,7 @@ function Landing(){
                     <source src={videoSource} type="video/mp4"/>
                 </video>
                 <div className="relative z-10 flex h-full items-center justify-center">
-                    <p className="-translate-x-5 z-10 text-5xl text-[#5e73a0] font-sans font-bold ml-15 mt-50">Work In Progress</p>
+                    <p className="-translate-x-5 z-10 text-5xl text-[#7e8ea7] font-sans font-bold ml-15 mt-50">Work In Progress</p>
                 </div>
             </div>
         </section>

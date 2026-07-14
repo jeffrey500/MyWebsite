@@ -10,11 +10,11 @@ function Experience(){
 
                 <div className="pb-20">
                     <ExperienceCard
-                        organization={"Krembil Brain Research Institute"}
+                        organization={"Krembil Brain Institute"}
                         title={"Student Researcher"}
                         general={"Testing and Implementation of mobile electroencephalography (EEG) Systems for studies and data collection."}
                         description={["Signal and safety verification testing for the OpenBCI Cyton System",
-                        "Millisecond level synchronization of EEG systems using microcontrollers",
+                        "Millisecond level synchronization of EEG systems with focused ultrasound stimulation and cognitive tasks",
                         "Collaboration with other labs in UHN and CAMH"]}
                         location={"Toronto, Ontario"}
                         date={"Sept 2025 - Present"}
