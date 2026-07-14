@@ -1,5 +1,4 @@
 import ExperienceCard from './ExperienceCard';
-import ProjectCard from "./ProjectCard.jsx";
 
 function Experience(){
     return(
@@ -11,7 +10,7 @@ function Experience(){
 
                 <div className="pb-20">
                     <ExperienceCard
-                        organization={"Krembil Research Institute"}
+                        organization={"Krembil Brain Research Institute"}
                         title={"Student Researcher"}
                         general={"Testing and Implementation of mobile electroencephalography (EEG) Systems for studies and data collection."}
                         description={["Signal and safety verification testing for the OpenBCI Cyton System",

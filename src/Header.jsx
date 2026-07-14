@@ -19,7 +19,7 @@ function Header(){
     }, []);
 
     return (
-        <header className={`fixed top-0 left-0 w-full z-50 py-4 px-6 transition-colors duration-1000 ${isScrolled ? 'bg-gray-700' : 'bg-transparent'}`}>
+        <header className={`fixed top-0 left-0 w-full z-50 py-4 px-6 transition-colors duration-700 ${isScrolled ? 'bg-gray-700' : 'bg-transparent'}`}>
             <nav className={`max-w-6xl mx-auto text-2xl font-bold items-center flex justify-between duration-1000 ${isScrolled ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
                 <h1 className={'mr-auto text-blue-300'}>Jeffrey Z.</h1>
                 <ul className={`gap-5 flex items-center text-white font-mono transition-opacity duration-500`}>
