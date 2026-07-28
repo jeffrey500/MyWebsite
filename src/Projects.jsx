@@ -11,6 +11,31 @@ function Projects(){
 
                 <div className="pb-20">
                     <ProjectCard
+                        github_link="https://github.com/jeffrey500/CNC-Whiteboard-Software"
+                        title={"CNC-Whiteboard Software"}
+                        description={`A full-stack web interface that drives a my CNC whiteboard plotter via a headless Raspberry Pi 3B+. 
+                        It processes both raw images and SVGs into optimized physical toolpaths using a custom OpenCV computer vision pipeline and a DFS graph-traversal algorithm. 
+                        The entire system is supported by a FastAPI and PostgreSQL backend that reliably stores, manages, and serves G-code and plotting renders.`}
+                        imageURL={"https://github.com/jeffrey500/CNC-Whiteboard-Software/blob/main/github_media/Screenshot%202026-07-28%20at%2010.36.43%E2%80%AFAM.png?raw=true"}
+                        color="border-lime-500"
+                        tech1="Postgresql"
+                        tech2="FastAPI"
+                        tech3="ReactJS"
+                        date="2025-2026 | 6 months"
+                    />
+                    <ProjectCard
+                        github_link="https://github.com/jeffrey500/CNC-Whiteboard"
+                        title={"CNC-Whiteboard"}
+                        description={"Fully custom a wall-mounted, timing belt-driven 1.3m by 2.3m CNC whiteboard plotter. " +
+                            "Built with 2040 aluminum extrusions, NEMA 17 steppers, and 3D-printed PETG components."}
+                        imageURL={"https://github.com/jeffrey500/CNC-Whiteboard/blob/main/media/title_image.png?raw=true"}
+                        color="border-amber-500"
+                        tech1="Fusion360"
+                        tech2="Mechatronics"
+                        tech3="3D-Printing"
+                        date="2025-2026 | 6 months"
+                    />
+                    <ProjectCard
                         github_link="https://github.com/jeffrey500/Flight-Controller"
                         title={"Flight Controller V1.0"}
                         description={"Custom flight STM32H743 flight controller on a 4-layer PCB. " +
@@ -25,25 +50,13 @@ function Projects(){
                         date="2026 | 2 months"
                     />
                     <ProjectCard
-                        github_link="https://github.com/jeffrey500/CNC-Whiteboard"
-                        title={"CNC-Whiteboard"}
-                        description={"Fully custom designed wall-mounted linear belt-drive CNC plotter for a 2 meter by 1.2 meter whiteboard. " +
-                        "Controlled using my ServoBoard V2.1 and an Ardunio-CNC Shield with 1/16 micro stepping running GRBL."}
-                        imageURL={"https://github.com/jeffrey500/CNC-Whiteboard/blob/main/media/title_image.png?raw=true"}
-                        color="border-orange-500"
-                        tech1="Fusion360"
-                        tech2="Mechanical Design"
-                        tech3="3D-Printing"
-                        date="2025-2026 | 6 months"
-                    />
-                    <ProjectCard
                         github_link="https://github.com/jeffrey500/ServoBoard"
                         title={"ServoBoard V2.1"}
                         description={"A custom PCB that drives up to 4 PWM servos. " +
                             "The board uses the atmega328PB and has variable input and variable servo voltage output using the LM2596S buck and AMS1117 LDO. " +
                             "The board also has 3 6n137 optocouplers for digital interfacing."}
                         imageURL={"https://github.com/jeffrey500/ServoBoard/blob/main/media/board.png?raw=true"}
-                        color="border-green-500"
+                        color="border-teal-500"
                         tech1="KiCad"
                         tech2="ATmega328"
                         tech3="Power Electronics"
@@ -55,10 +68,10 @@ function Projects(){
                         description={"Safety and Verification testing for the OpenBCI Cyton Board in relation to usage for EEG studies. " +
                             "Comparison to the SynAmps-RT 64-channel amplifier. Analyzed average power spectral density and eye-blink amplitudes."}
                         imageURL={"https://github.com/user-attachments/assets/e03e6e90-469e-4d2a-8ca5-38119946f39d"}
-                        color="border-yellow-500"
+                        color="border-violet-500"
                         tech1="MNE Python"
-                        tech2="EEG"
-                        tech3="Hardware Verification"
+                        tech2="EEG-analysis"
+                        tech3="Verification testing"
                         date="2025-2026 | 5 months"
                     />
                 </div>

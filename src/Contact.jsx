@@ -3,7 +3,7 @@ function Contact(){
         <section id="contact" className="scroll-mt-15 static flex flex-1 flex-col items-center justify-center bg-gray-100">
             <div className="max-w-4xl w-full max-auto mb-20">
                 <h2 className="text-black text-6xl font-mono font-bold tracking-tight mt-20 mb-10">Contact</h2>
-                <div className={`flex flex-col bg-white rounded-4xl shadow-sm hover:shadow-2xl duration-500 border-6 border-gray-500 p-7 pb-8 my-7 gap-2`}>
+                <div className={`flex flex-col bg-white rounded-4xl shadow-sm hover:shadow-2xl duration-500 border-6 border-stone-500 p-7 pb-8 my-7 gap-2`}>
                     <h2 className="text-3xl font-bold text-left">Let's Connect</h2>
                     <div className={"grid grid-cols-2 mt-4"}>
                         <div>
