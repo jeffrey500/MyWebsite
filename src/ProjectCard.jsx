@@ -1,6 +1,6 @@
 import link from "./assets/link.svg";
 
-const ProjectCard = ({github_link, color, title, description, imageURL, tech1, tech2, tech3, date}) => {
+const ProjectCard = ({github_link, color, title, description, imageURL, imageFrame, tech1, tech2, tech3, date}) => {
     return (
         <a
             href={github_link}
@@ -26,7 +26,7 @@ const ProjectCard = ({github_link, color, title, description, imageURL, tech1, t
                 <img
                     src={imageURL}
                     alt={title}
-                    className="max-w-full max-h-full object-contain border-2 border-gray-500"
+                    className={`max-w-full max-h-full object-contain border-2 ${imageFrame? 'border-gray-500' : 'border-none'}`}
                 />
             </div>
         </a>

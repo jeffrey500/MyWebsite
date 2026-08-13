@@ -12,10 +12,10 @@ function Experience(){
                     <ExperienceCard
                         organization={"Krembil Brain Institute"}
                         title={"Student Researcher"}
-                        general={"Testing and Implementation of mobile electroencephalography (EEG) Systems for studies and data collection."}
-                        description={["Signal and safety verification testing for the OpenBCI Cyton System",
-                        "Millisecond level synchronization of EEG systems with focused ultrasound stimulation and cognitive tasks",
-                        "Collaboration with other labs in UHN and CAMH"]}
+                        general={"Implementation of mobile electroencephalography (EEG) Systems + Biomedical Engineering"}
+                        description={["Fixed ultrasound stimulation trajectory using 3D-printing for accurate deep brain stimulation from skull MRI", "Signal and safety verification testing for the OpenBCI Cyton System",
+                        "TTL synchronization of EEG systems with focused ultrasound stimulation and cognitive tasks",
+                        "Collaboration with other labs in UHN and CAMH", "Neurofeedback"]}
                         location={"Toronto, Ontario"}
                         date={"Sept 2025 - Present"}
                     />

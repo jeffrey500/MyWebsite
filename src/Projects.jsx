@@ -17,6 +17,7 @@ function Projects(){
                         It processes both raw images and SVGs into optimized physical toolpaths using a custom OpenCV computer vision pipeline and a DFS graph-traversal algorithm. 
                         The entire system is supported by a FastAPI and PostgreSQL backend that reliably stores, manages, and serves G-code and plotting renders.`}
                         imageURL={"https://github.com/jeffrey500/CNC-Whiteboard-Software/blob/main/github_media/Screenshot%202026-07-28%20at%2010.36.43%E2%80%AFAM.png?raw=true"}
+                        imageFrame={true}
                         color="border-lime-500"
                         tech1="Postgresql"
                         tech2="FastAPI"
@@ -24,11 +25,40 @@ function Projects(){
                         date="2025-2026 | 6 months"
                     />
                     <ProjectCard
+                        github_link="https://github.com/jeffrey500/EMG_Board"
+                        title={"4-Channel EMG Analog Front End"}
+                        description={"A fully custom differential 4-channel electromyogram (EMG) Analog Front End (AFE) and " +
+                            "medical grade power design with 5000V of input isolation on a 4-layer PCB. Utilizes INA828IDR and OPA189IDR high precision Instrumental " +
+                            "and Operational Amplifiers, total gain of 510x, and has first order high and low pass filters. " +
+                            "LTspice was utilized to verify the frequency and transient response of the AFE."}
+                        imageURL={"https://github.com/jeffrey500/EMG_Board/blob/main/media/Board_3D.png?raw=true"}
+                        color="border-pink-500"
+                        tech1="Analog Design"
+                        tech2="LTspice"
+                        tech3="Altium"
+                        date="2026 | 1 month"
+                    />
+                    <ProjectCard
+                        github_link="https://github.com/jeffrey500/Flight-Controller"
+                        title={"Flight Controller V1.1"}
+                        description={"A custom flight controller with a STM32H743 ARM microcontroller on a 4-layer PCB that can run ArduPilot autonomous flight planning software. " +
+                            "Future testbed for Control Algorithms. " +
+                            "Integrated IMU (BMI270), and Barometer (BMP388). " +
+                            "Routing for USB, SDMMC, CAN, SPI, UART, I2C, PWM/D-Shot."}
+                        imageURL={"https://github.com/jeffrey500/Flight-Controller/blob/main/media/Board_front.png?raw=true"}
+                        color="border-sky-500"
+                        tech1="Digital Design"
+                        tech2="STM32"
+                        tech3="Altium"
+                        date="2026 | 3 months"
+                    />
+                    <ProjectCard
                         github_link="https://github.com/jeffrey500/CNC-Whiteboard"
                         title={"CNC-Whiteboard"}
                         description={"Fully custom a wall-mounted, timing belt-driven 1.3m by 2.3m CNC whiteboard plotter. " +
                             "Built with 2040 aluminum extrusions, NEMA 17 steppers, and 3D-printed PETG components."}
                         imageURL={"https://github.com/jeffrey500/CNC-Whiteboard/blob/main/media/title_image.png?raw=true"}
+                        imageFrame={true}
                         color="border-amber-500"
                         tech1="Fusion360"
                         tech2="Mechatronics"
@@ -36,30 +66,16 @@ function Projects(){
                         date="2025-2026 | 6 months"
                     />
                     <ProjectCard
-                        github_link="https://github.com/jeffrey500/Flight-Controller"
-                        title={"Flight Controller V1.0"}
-                        description={"Custom flight STM32H743 flight controller on a 4-layer PCB. " +
-                            "Future testbed for Control Algorithms. " +
-                            "Integrated IMU (BMI270), and Barometer (BMP388). " +
-                            "Routing for USB, SDMMC, CAN, SPI, UART, I2C, PWM/D-Shot."}
-                        imageURL={"https://github.com/jeffrey500/Flight-Controller/blob/main/media/Layer1_pour.png?raw=true"}
-                        color="border-sky-500"
-                        tech1="Altium"
-                        tech2="STM32"
-                        tech3="Hardware"
-                        date="2026 | 2 months"
-                    />
-                    <ProjectCard
                         github_link="https://github.com/jeffrey500/ServoBoard"
                         title={"ServoBoard V2.1"}
-                        description={"A custom PCB that drives up to 4 PWM servos. " +
+                        description={"A custom 2-layer PCB that drives up to 4 PWM servos. " +
                             "The board uses the atmega328PB and has variable input and variable servo voltage output using the LM2596S buck and AMS1117 LDO. " +
                             "The board also has 3 6n137 optocouplers for digital interfacing."}
                         imageURL={"https://github.com/jeffrey500/ServoBoard/blob/main/media/board.png?raw=true"}
                         color="border-teal-500"
-                        tech1="KiCad"
+                        tech1="Power Electronics"
                         tech2="ATmega328"
-                        tech3="Power Electronics"
+                        tech3="KiCad"
                         date="2026 | 2 months"
                     />
                     <ProjectCard
@@ -68,6 +84,7 @@ function Projects(){
                         description={"Safety and Verification testing for the OpenBCI Cyton Board in relation to usage for EEG studies. " +
                             "Comparison to the SynAmps-RT 64-channel amplifier. Analyzed average power spectral density and eye-blink amplitudes."}
                         imageURL={"https://github.com/user-attachments/assets/e03e6e90-469e-4d2a-8ca5-38119946f39d"}
+                        imageFrame={true}
                         color="border-violet-500"
                         tech1="MNE Python"
                         tech2="EEG-analysis"
