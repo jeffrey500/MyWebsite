@@ -67,7 +67,7 @@ function Landing(){
                         </a>
                     </div>
 
-                    <a href={"#about"} className="animate-bounce translate-y-70">
+                    <a href={"#about"} className="animate-bounce translate-y-30">
                         <img src={arrow} className="h-20 w-20" alt="Scroll down"/>
                     </a>
                 </div>
