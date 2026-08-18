@@ -8,7 +8,7 @@ function Contact(){
                     <div className={"grid grid-cols-2 mt-4"}>
                         <div>
                             <h2 className="text-xl text-left font-bold text-gray-600">General Inquiries</h2>
-                            <p className={"hover hover:text-sky-600"}>jeffrey@jzhu.ca</p>
+                            <p className={"hover hover:text-sky-600"}>jeffr.zhu@mail.utoronto.ca</p>
                             <h2 className="text-xl text-left font-bold text-gray-600 pt-5">Academic Email</h2>
                             <p className={"hover hover:text-sky-600"}>jeffr.zhu@mail.utoronto.ca</p>
                         </div>

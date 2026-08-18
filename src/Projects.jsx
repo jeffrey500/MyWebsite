@@ -55,7 +55,7 @@ function Projects(){
                     <ProjectCard
                         github_link="https://github.com/jeffrey500/CNC-Whiteboard"
                         title={"CNC-Whiteboard"}
-                        description={"Fully custom a wall-mounted, timing belt-driven 1.3m by 2.3m CNC whiteboard plotter. " +
+                        description={"Fully custom wall-mounted, timing belt-driven 1.3m by 2.3m CNC whiteboard plotter. " +
                             "Built with 2040 aluminum extrusions, NEMA 17 steppers, and 3D-printed PETG components."}
                         imageURL={"https://github.com/jeffrey500/CNC-Whiteboard/blob/main/media/title_image.png?raw=true"}
                         imageFrame={true}

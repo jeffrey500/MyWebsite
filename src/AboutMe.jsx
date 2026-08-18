@@ -11,7 +11,7 @@ function AboutMe(){
                         Engineering Science Student at the University of Toronto who has a passion for hardware, software and
                         robotics.
                         <br/> <br/>
-                        I'm currently interested in FPGAs, Machine Learning, Drones and Brain Computer
+                        I'm currently interested in FPGAs, Computer Algorithms, Machine Learning, Drones and Brain Computer
                         Interfaces.
                         <br/> <br/>
                         I love learning new things and have spent the last 19 years of my life trying to develop an

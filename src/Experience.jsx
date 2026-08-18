@@ -34,7 +34,7 @@ function Experience(){
                     <ExperienceCard
                         organization={"First Tech Challenge Team Delta Robotics 27115"}
                         title={"Founding Captain"}
-                        general={"Worked create to create and mentor a community FTC of middle schoolers."}
+                        general={"Worked to create and mentor a community FTC team"}
                         description={["Mentored Robotics, Engineering Design, and Competition Skills",
                             "Led Mechanical Design and Manufacturing (Sheet Metal & 3D-printing)",
                             "Team won Inspire award 2nd place and Control award 2nd place, and competed in the Ontario Provincials"]}
