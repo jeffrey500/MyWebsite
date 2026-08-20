@@ -45,7 +45,7 @@ function Projects(){
                             "Future testbed for Control Algorithms. " +
                             "Integrated IMU (BMI270), and Barometer (BMP388). " +
                             "Routing for USB, SDMMC, CAN, SPI, UART, I2C, PWM/D-Shot."}
-                        imageURL={"https://github.com/jeffrey500/Flight-Controller/blob/main/media/Board_front.png?raw=true"}
+                        imageURL={"https://github.com/jeffrey500/Flight-Controller/blob/main/Media/Board_front.png?raw=true"}
                         color="border-sky-500"
                         tech1="Digital Design"
                         tech2="STM32"
