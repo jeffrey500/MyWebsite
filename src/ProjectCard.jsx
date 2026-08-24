@@ -1,6 +1,6 @@
 import link from "./assets/link.svg";
 
-const ProjectCard = ({github_link, color, title, description, imageURL, imageFrame, tech1, tech2, tech3, date}) => {
+const ProjectCard = ({github_link, color, title, description, imageURL, imageFrame, tech, date}) => {
     return (
         <a
             href={github_link}
@@ -13,11 +13,13 @@ const ProjectCard = ({github_link, color, title, description, imageURL, imageFra
                     <img src={link} className="h-7 w-7 translate-x-3 translate-y-1" alt="link-out"/>
                 </div>
                 <p className="text-gray-500 text-left max-w-130">{description}</p>
-                <div className="flex flex-row mt-7 font text-sm">
-                    <div className="mr-3 py-1 px-2 bg-gray-200 rounded-md">{tech1}</div>
-                    <div className="mr-3 py-1 px-2 bg-gray-200 rounded-md">{tech2}</div>
-                    <div className="mr-3 py-1 px-2 bg-gray-200 rounded-md">{tech3}</div>
-                    <div className="mr-3 py-1 px-2 bg-gray-200 rounded-md">{date}</div>
+                <div className="flex flex-row flex-wrap items-center mt-7 font text-sm">
+                    {tech.map((tech, index) => (
+                        <div key={index} className="mr-3 mb-2 py-1 px-2 bg-gray-200 rounded-md">
+                            {tech}
+                        </div>
+                    ))}
+                    <div className="mr-3 mb-2 py-1 px-2 bg-gray-200 rounded-md">{date}</div>
                 </div>
             </div>
 
@@ -26,7 +28,7 @@ const ProjectCard = ({github_link, color, title, description, imageURL, imageFra
                 <img
                     src={imageURL}
                     alt={title}
-                    className={`max-w-full max-h-full object-contain border-2 ${imageFrame? 'border-gray-500' : 'border-none'}`}
+                    className={`max-w-full max-h-full object-contain border-2 ${imageFrame ? 'border-gray-500' : 'border-none'}`}
                 />
             </div>
         </a>
