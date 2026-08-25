@@ -13,9 +13,9 @@ function Projects(){
                     <ProjectCard
                         github_link="https://github.com/jeffrey500/CNC-Whiteboard-Software"
                         title={"CNC-Whiteboard Software"}
-                        description={`A full-stack web interface that drives a my CNC whiteboard plotter via a headless Raspberry Pi 3B+. 
+                        description={`A full-stack web interface that drives my CNC whiteboard plotter via a headless Raspberry Pi 3B+. 
                         It processes both raw images and SVGs into optimized physical toolpaths using a custom OpenCV computer vision pipeline and a DFS graph-traversal algorithm. 
-                        The entire system is supported by a FastAPI and PostgreSQL backend that reliably stores, manages, and serves G-code and plotting renders.`}
+                        The entire system is supported by a FastAPI and PostgreSQL backend that stores, manages, and returns G-code and plotting renders.`}
                         imageURL={"https://github.com/jeffrey500/CNC-Whiteboard-Software/blob/main/github_media/Screenshot%202026-07-28%20at%2010.36.43%E2%80%AFAM.png?raw=true"}
                         imageFrame={true}
                         color="border-lime-500"
@@ -26,8 +26,8 @@ function Projects(){
                         github_link="https://github.com/jeffrey500/Flight-Controller"
                         title={"Flight Controller V1.2 & Firmware"}
                         description={"A custom flight controller with a STM32H743 ARM microcontroller on a 4-layer PCB. " +
-                            "Features firmware written in bare-metal C and implements \"angle-mode\" stabilization using cascaded PID control loops: angle (250Hz) and angle rate control (1kHz). " +
-                            "Firmware also uses DMA and a FSM for radio and motor D-Shot. " +
+                            "Features firmware written in bare-metal C ground up, including peripheral drivers, cascaded PID flight-control\n" +
+                            "loops, finite-state machines, and Direct Memory Access based sensor and motor ESC communication. " +
                             "PCB includes an integrated IMU (BMI270), Barometer (BMP388), Micro-SD slot + connectors for CAN, USB, UART, SPI, I2C, DAC."}
                         imageURL={"https://github.com/jeffrey500/Flight-Controller/blob/main/Media/Board_front.png?raw=true"}
                         color="border-sky-500"
@@ -37,14 +37,14 @@ function Projects(){
                     <ProjectCard
                         github_link="https://github.com/jeffrey500/EMG_Board"
                         title={"4-Channel EMG Analog Front End"}
-                        description={"A fully custom differential 4-channel electromyogram (EMG) Analog Front End (AFE) and " +
-                            "medical grade power design with 5000V of input isolation on a 4-layer PCB. Utilizes INA828IDR and OPA189IDR high precision Instrumental " +
-                            "and Operational Amplifiers, adjustable total gain range of 306+, and has first order high and low pass filters. " +
-                            "\n LTspice was utilized to verify the frequency and transient response of the AFE. Board designed for Dr. Robert Chen's lab @ Krembil Brain Institute."}
+                        description={"A fully custom differential 4-channel Electromyogram (EMG) Analog Front End (AFE) and " +
+                            "galvanically isolated push-pull-transformer power design on a 4-layer PCB. Utilizes INA828IDR and OPA189IDR high CMRR and Input Impedance Instrumental " +
+                            "and Operational Amplifiers, two stage adjustable gain of 306+, and first-order 10 Hz high-pass and 400 Hz low-pass filtering. " +
+                            "LTspice was utilized to verify the frequency and transient response of the AFE. Designed for Dr. Robert Chen's Lab @ Krembil Brain Institute."}
                         imageURL={"https://github.com/jeffrey500/EMG_Board/blob/main/media/Board_3D.png?raw=true"}
                         color="border-pink-500"
                         tech={["Analog Design","LTspice", "Altium"]}
-                        date="2026 | 2 month"
+                        date="2026 | 2 months"
                     />
                     <ProjectCard
                         github_link="https://github.com/jeffrey500/CNC-Whiteboard"
@@ -72,7 +72,8 @@ function Projects(){
                         github_link="https://github.com/jeffrey500/OpenBCI-Cyton-Board-Safety-and-Verification/blob/main/OpenBCI%20Cyton%20Board%20Safety%20and%20Verification.pdf"
                         title={"OpenBCI Cyton EEG Verification"}
                         description={"Safety and Verification testing for the OpenBCI Cyton Board in relation to usage for EEG studies. " +
-                            "Comparison to the SynAmps-RT 64-channel amplifier. Analyzed average power spectral density and eye-blink amplitudes."}
+                            "Comparison to the SynAmps-RT 64-channel amplifier. Analyzed average power spectral density and eye-blink amplitudes. " +
+                            "Prepared @ Krembil Brain Institute."}
                         imageURL={"https://github.com/user-attachments/assets/e03e6e90-469e-4d2a-8ca5-38119946f39d"}
                         imageFrame={true}
                         color="border-violet-500"
