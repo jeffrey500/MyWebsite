@@ -24,8 +24,7 @@ function Projects(){
                     />
                     <ProjectCard
                         github_link="https://github.com/jeffrey500/Flight-Controller"
-                        title={"Flight Controller V1.2 & Firmware"}
-                        description={"A custom flight controller with a STM32H743 ARM microcontroller on a 4-layer PCB. " +
+                        title={"Flight Controller V1.2 & Firmware"} description={"A custom flight controller with a STM32H743 ARM microcontroller on a 4-layer PCB. " +
                             "Features firmware written in bare-metal C ground up, including peripheral drivers, cascaded PID flight-control\n" +
                             "loops, finite-state machines, and Direct Memory Access based sensor and motor ESC communication. " +
                             "PCB includes an integrated IMU (BMI270), Barometer (BMP388), Micro-SD slot + connectors for CAN, USB, UART, SPI, I2C, DAC."}
